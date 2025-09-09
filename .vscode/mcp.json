@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "jiraMcp": {
+            "command": "java",
+            "args": [
+                "-jar", 
+                "/Users/sidzkows/Library/CloudStorage/OneDrive-VisaInc/Documents/codemonkey/bgrmcp-0.0.1-SNAPSHOT.jar"
+            ],
+            "env": {
+                "JIRA_API_TOKEN": ""
+            }
+        },
+    }
+}

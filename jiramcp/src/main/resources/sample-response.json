@@ -1,0 +1,68 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 2,
+  "issues": [
+    {
+      "id": "10001",
+      "key": "DER-101",
+      "self": "https://tinkab.atlassian.net/rest/api/3/issue/10001",
+      "fields": {
+        "summary": "Investigate data refresh failure",
+        "status": {
+          "self": "https://tinkab.atlassian.net/rest/api/3/status/1",
+          "description": "Open",
+          "iconUrl": "https://tinkab.atlassian.net/images/icons/status_open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://tinkab.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "assignee": {
+          "self": "https://tinkab.atlassian.net/rest/api/3/user?accountId=abc123",
+          "accountId": "abc123",
+          "displayName": "Sebastian Idzkowski",
+          "active": true
+        },
+        "created": "2024-06-01T12:34:56.789+0000",
+        "updated": "2024-06-02T09:21:43.123+0000"
+      }
+    },
+    {
+      "id": "10002",
+      "key": "DER-102",
+      "self": "https://tinkab.atlassian.net/rest/api/3/issue/10002",
+      "fields": {
+        "summary": "Add logging to refresh job",
+        "status": {
+          "self": "https://tinkab.atlassian.net/rest/api/3/status/1",
+          "description": "Open",
+          "iconUrl": "https://tinkab.atlassian.net/images/icons/status_open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://tinkab.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "assignee": {
+          "self": "https://tinkab.atlassian.net/rest/api/3/user?accountId=abc321",
+          "accountId": "abc321",
+          "displayName": "Leo Libfom",
+          "active": true
+        },
+        "created": "2024-06-03T08:15:00.000+0000",
+        "updated": "2024-06-03T08:15:00.000+0000"
+      }
+    }
+  ]
+}
