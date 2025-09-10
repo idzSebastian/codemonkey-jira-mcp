@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BgrmcpApplication
+class JiraMcpApplication
 
 fun main(args: Array<String>) {
-	runApplication<BgrmcpApplication>(*args)
+	runApplication<JiraMcpApplication>(*args)
 }

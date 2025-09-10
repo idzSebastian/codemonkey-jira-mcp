@@ -13,7 +13,7 @@ class JiraToolTest {
 
     @Test
     fun getUserTicketsFromJira() {
-        jiraTool.getUserTicketsFromJira(from = "2023-10-01", to = "2023-10-31", team = "data-refresh")
+        jiraTool.getUserTicketsFromJira(from = "2025-08-01", to = "2025-09-10", team = "data-refresh")
 
     }
 }
