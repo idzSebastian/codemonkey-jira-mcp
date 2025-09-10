@@ -1,68 +1,43 @@
 {
-  "expand": "schema,names",
-  "startAt": 0,
-  "maxResults": 50,
-  "total": 2,
+
   "issues": [
     {
-      "id": "10001",
-      "key": "DER-101",
-      "self": "https://tinkab.atlassian.net/rest/api/3/issue/10001",
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "470717",
+      "self": "https://tinkab.atlassian.net/rest/api/3/issue/470717",
+      "key": "DER-8897",
       "fields": {
-        "summary": "Investigate data refresh failure",
-        "status": {
-          "self": "https://tinkab.atlassian.net/rest/api/3/status/1",
-          "description": "Open",
-          "iconUrl": "https://tinkab.atlassian.net/images/icons/status_open.png",
-          "name": "Open",
-          "id": "1",
-          "statusCategory": {
-            "self": "https://tinkab.atlassian.net/rest/api/3/statuscategory/2",
-            "id": 2,
-            "key": "new",
-            "colorName": "blue-gray",
-            "name": "To Do"
-          }
-        },
+        "summary": "Deployed aggregation-engine",
         "assignee": {
-          "self": "https://tinkab.atlassian.net/rest/api/3/user?accountId=abc123",
-          "accountId": "abc123",
-          "displayName": "Sebastian Idzkowski",
-          "active": true
+          "self": "https://tinkab.atlassian.net/rest/api/3/user?accountId=5f3107dc3aa35b003fc204f7",
+          "accountId": "5f3107dc3aa35b003fc204f7",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f3107dc3aa35b003fc204f7/d9a80f2a-6fda-4685-9aa6-07fd97468995/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f3107dc3aa35b003fc204f7/d9a80f2a-6fda-4685-9aa6-07fd97468995/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f3107dc3aa35b003fc204f7/d9a80f2a-6fda-4685-9aa6-07fd97468995/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f3107dc3aa35b003fc204f7/d9a80f2a-6fda-4685-9aa6-07fd97468995/32"
+          },
+          "displayName": "Damian Baciur",
+          "active": true,
+          "timeZone": "Europe/Stockholm",
+          "accountType": "atlassian"
         },
-        "created": "2024-06-01T12:34:56.789+0000",
-        "updated": "2024-06-02T09:21:43.123+0000"
-      }
-    },
-    {
-      "id": "10002",
-      "key": "DER-102",
-      "self": "https://tinkab.atlassian.net/rest/api/3/issue/10002",
-      "fields": {
-        "summary": "Add logging to refresh job",
         "status": {
-          "self": "https://tinkab.atlassian.net/rest/api/3/status/1",
-          "description": "Open",
-          "iconUrl": "https://tinkab.atlassian.net/images/icons/status_open.png",
-          "name": "Open",
-          "id": "1",
+          "self": "https://tinkab.atlassian.net/rest/api/3/status/10007",
+          "description": "Implementation is complete, the code has been merged and deployed",
+          "iconUrl": "https://tinkab.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10007",
           "statusCategory": {
-            "self": "https://tinkab.atlassian.net/rest/api/3/statuscategory/2",
-            "id": 2,
-            "key": "new",
-            "colorName": "blue-gray",
-            "name": "To Do"
+            "self": "https://tinkab.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
           }
-        },
-        "assignee": {
-          "self": "https://tinkab.atlassian.net/rest/api/3/user?accountId=abc321",
-          "accountId": "abc321",
-          "displayName": "Leo Libfom",
-          "active": true
-        },
-        "created": "2024-06-03T08:15:00.000+0000",
-        "updated": "2024-06-03T08:15:00.000+0000"
+        }
       }
     }
-  ]
+  ],
+  "isLast": true
 }
